@@ -1,0 +1,7 @@
+.phone-input {
+	font-weight: bold;
+}
+
+.phone-input::placeholder {
+	font-weight: normal;
+}
