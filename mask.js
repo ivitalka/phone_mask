@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 	const phoneInput = document.querySelector('.phone-input');
 
 	const getNumbers = (input) => input.value.replace(/\D/g, '');
